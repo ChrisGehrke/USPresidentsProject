@@ -3,6 +3,7 @@ package com.skilldistillery.presidents.data;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.sql.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -56,11 +57,38 @@ public class PresidentDAOImpl implements PresidentDAO {
 	public ArrayList<President> searchByParty(String party) {
 		ArrayList<President> list = new ArrayList<>();
 		for (President president : presidents) {
-			if (president.getParty().equals(party)) {
+			if (president.getParty().equalsIgnoreCase(party)) {
 				list.add(president);
 			}
 		}
 		return list;
+	}
+
+	@Override
+	public ArrayList<President> searchByFName(String fname) {
+		ArrayList<President> list = new ArrayList<>();
+		for (President president : presidents) {
+			if (president.getFirstName().equalsIgnoreCase(fname)) {
+				list.add(president);
+			}
+		}
+		return list;
+	}
+
+	@Override
+	public ArrayList<President> searchByLName(String lname) {
+		ArrayList<President> list = new ArrayList<>();
+		for (President president : presidents) {
+			if (president.getLastName().equalsIgnoreCase(lname)) {
+				list.add(president);
+			}
+		}
+		return null;
+	}
+
+	@Override
+	public ArrayList<President> allPresidents() {
+		return new ArrayList<>(presidents);
 	}
 	
 	
