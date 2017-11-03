@@ -3,14 +3,20 @@ package com.skilldistillery.presidents.data;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.sql.Array;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.servlet.ServletContext;
+
 public class PresidentDAOImpl implements PresidentDAO {
 	private List<President> presidents;
+	private ServletContext servletContext;
 	
-	public PresidentDAOImpl() {
+	public PresidentDAOImpl(ServletContext context) {
+		servletContext = context;
 		presidents = readFile();
 	}
 	
@@ -18,8 +24,10 @@ public class PresidentDAOImpl implements PresidentDAO {
 	public ArrayList<President> readFile() {
 		ArrayList<President> arr = new ArrayList<>();
 		try {
-            FileReader fr = new FileReader("presidents.csv");
-            BufferedReader buf = new BufferedReader(fr);
+			InputStream is = servletContext.getResourceAsStream("WEB-INF/presidents.csv");
+
+//            FileReader fr = new FileReader("WEB-INF/presidents.csv");
+            BufferedReader buf = new BufferedReader(new InputStreamReader(is));
 
             String line;
             while ((line = buf.readLine()) != null) {
