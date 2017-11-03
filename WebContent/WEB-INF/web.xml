@@ -10,11 +10,11 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
-    <servlet-name></servlet-name>
-    <servlet-class></servlet-class>
+    <servlet-name>PresidentServlet</servlet-name>
+    <servlet-class>com.skilldistillery.presidents.data.PresidentServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name></servlet-name>
+    <servlet-name>PresidentServlet</servlet-name>
     <url-pattern>*.do</url-pattern>
   </servlet-mapping>
 </web-app>
