@@ -51,6 +51,17 @@ public class PresidentDAOImpl implements PresidentDAO {
 		}
 		return null;
 	}
+
+	@Override
+	public ArrayList<President> searchByParty(String party) {
+		ArrayList<President> list = new ArrayList<>();
+		for (President president : presidents) {
+			if (president.getParty().equals(party)) {
+				list.add(president);
+			}
+		}
+		return list;
+	}
 	
 	
 }
