@@ -1,5 +1,8 @@
 package com.skilldistillery.presidents.data;
 
-public interface PresidentDAO {
+import java.util.ArrayList;
 
+public interface PresidentDAO {
+	public President searchByTerm(String num);
+	public ArrayList<President> readFile();
 }
