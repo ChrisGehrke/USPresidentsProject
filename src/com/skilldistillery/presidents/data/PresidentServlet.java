@@ -26,10 +26,10 @@ public class PresidentServlet extends HttpServlet {
 		String select = request.getParameter("select");
 		String input = request.getParameter("president");
 		ArrayList<President> list = new ArrayList<>();
-		President pres;
+		President pres = dao.searchByTerm("1");
 		if (select.equalsIgnoreCase("term")) {
 			pres = dao.searchByTerm(input);
-			list.add(pres);
+			list = dao.allPresidents();
 		}
 		if (select.equals("party")) {
 			list = dao.searchByParty(input);
@@ -43,7 +43,7 @@ public class PresidentServlet extends HttpServlet {
 		if (select.equals("lastName")) {
 			list = dao.searchByLName(input);
 		}
-		
+		request.setAttribute("firstPres", pres);
 		request.setAttribute("presList", list);
 		request.getRequestDispatcher("/PresidentJSP.jsp").forward(request, response);
 	}
