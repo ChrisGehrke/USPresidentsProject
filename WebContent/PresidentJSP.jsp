@@ -33,27 +33,67 @@
 </c:choose>
  <c:if test="${pres.term == 1}">
  <img class="d-block w-100" src="Images/GeorgeWashington.jpg" alt="First slide">
+ <h1>George Washington</h1>
+ <h3>Term: First President</h3>
+ <h3>Party: Independent</h3>
+ <h3>In office: 1789-1797</h3>
+ <h3>Fun fact: He is the tallest president standing at 6'3"</h3>
  </c:if>
  <c:if test="${pres.term == 2}">
  <img class="d-block w-100" src="Images/JohnAdams.jpg" alt="Second slide">
+ <h1>John Adams</h1>
+ <h3>Term: Second President</h3>
+ <h3>Party: Federalist</h3>
+ <h3>In office: 1797-1801</h3>
+ <h3>Fun fact: He is the first president to live in the White House.</h3>
  </c:if>
  <c:if test="${pres.term == 3}">
  <img class="d-block w-100" src="Images/ThomasJefferson.jpg" alt="Third slide">
+ <h1>Thomas Jefferson</h1>
+ <h3>Term: Third President</h3>
+ <h3>Party: Democratic-Republican</h3>
+ <h3>In office: 1801-1809</h3>
+ <h3>Fun fact: He loved vanilla ice cream.</h3>
  </c:if>
  <c:if test="${pres.term == 4}">
  <img class="d-block w-100" src="Images/JamesMadison.jpg" alt="Fourth slide">
+ <h1>James Madison</h1>
+ <h3>Term: Fourth President</h3>
+ <h3>Party: Democratic-Republican</h3>
+ <h3>In office: 1809-1817</h3>
+ <h3>Fun fact: He once lost an election because he didn't give voters free alcohol.</h3>
  </c:if>
  <c:if test="${pres.term == 5}">
  <img class="d-block w-100" src="Images/JamesMonroe.jpg" alt="Fifth slide">
+ <h1>James Monroe</h1>
+ <h3>Term: Fifth President</h3>
+ <h3>Party: Democratic-Republican</h3>
+ <h3>In office: 1817-1825</h3>
+ <h3>Fun fact: His first term was coined the era of good feelings.</h3>
  </c:if>
  <c:if test="${pres.term == 6}">
  <img class="d-block w-100" src="Images/JohnQuincyAdams.JPG" alt="Sixth slide">
+ <h1>John Quincy Adams</h1>
+ <h3>Term: Sixth President</h3>
+ <h3>Party: Democratic-Republican</h3>
+ <h3>In office: 1825-1829</h3>
+ <h3>Fun fact: He suffered a stroke on the White House floor and died two days later.</h3>
  </c:if>
  <c:if test="${pres.term == 7}">
  <img class="d-block w-100" src="Images/AndrewJackson.jpg" alt="Seventh slide">
+ <h1>Andrew Jackson</h1>
+ <h3>Term: Seventh President</h3>
+ <h3>Party: Democrat</h3>
+ <h3>In office: 1829-1837</h3>
+ <h3>Fun fact: He killed a man in a duel. He was in many duels and even carried two bullets in his chest.</h3>
  </c:if>
  <c:if test="${pres.term == 8}">
  <img class="d-block w-100" src="Images/MartinVanBuren.jpg" alt="Eigth slide">
+ <h1>Martin Van Buren</h1>
+ <h3>Term: Eight President</h3>
+ <h3>Party: Democrat</h3>
+ <h3>In office: 1837-1841</h3>
+ <h3>Fun fact: His nickname "Old Kinderhook" helped coin the term Ok.</h3>
  </c:if>
  <c:if test="${pres.term == 9}">
  <img class="d-block w-100" src="Images/WilliamHenryHarrison.jpg" alt="Ninth slide">
