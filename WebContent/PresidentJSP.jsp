@@ -18,8 +18,11 @@
  
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
+  <div class="carousel-item active">
+  	<img class="d-block w-100" src="Images/GeorgeWashington.jpg" alt="First slide">
+  </div>
 <c:forEach var="pres" items="${presList}">
-<div class="carousel-item active">
+<div class="carousel-item">
  <c:if test="${pres.term == 1}">
  <img class="d-block w-100" src="Images/GeorgeWashington.jpg" alt="First slide">
  </c:if>
