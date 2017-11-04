@@ -12,12 +12,15 @@ import javax.servlet.http.HttpServletResponse;
 
 public class PresidentServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private PresidentDAO dao = new PresidentDAOImpl();
+	private PresidentDAO dao;
        
     public PresidentServlet() {
         super();
     }
-    
+    @Override
+    public void init() {
+    		dao = new PresidentDAOImpl(getServletContext());
+    }
     
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String term = request.getParameter("term");
@@ -46,7 +49,7 @@ public class PresidentServlet extends HttpServlet {
 		}
 		
 		request.setAttribute("presList", list);
-		request.getRequestDispatcher("").forward(request, response);
+		request.getRequestDispatcher("/PresidentJSP.jsp").forward(request, response);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
