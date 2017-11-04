@@ -5,12 +5,11 @@
     font-size: 16px;
     border: none;
     cursor: pointer;
+    margin: auto;
 }
 
 .pres_list {
     position: relative;
     display: inline-block;
 }
- #List{
-	background-color: gray;
-}
+ 
