@@ -99,5 +99,19 @@ public class PresidentDAOImpl implements PresidentDAO {
 		return new ArrayList<>(presidents);
 	}
 	
+
+	@Override
+	public President findLowestTerm(ArrayList<President> list) {
+		President lowestTerm = null;
+		for (President president : list) {
+			if (lowestTerm == null) {
+				lowestTerm = president;
+			}
+			else if (president.getTerm() < lowestTerm.getTerm()) {
+				lowestTerm = president;
+			}
+		}
+		return lowestTerm;
+	}
 	
 }

@@ -10,4 +10,5 @@ public interface PresidentDAO {
 	public ArrayList<President> searchByFName(String fname);
 	public ArrayList<President> searchByLName(String lname);
 	public ArrayList<President> allPresidents();
+	public President findLowestTerm(ArrayList<President> list);
 }

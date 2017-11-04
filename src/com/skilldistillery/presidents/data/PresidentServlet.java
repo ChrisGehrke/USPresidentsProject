@@ -33,15 +33,18 @@ public class PresidentServlet extends HttpServlet {
 		}
 		if (select.equals("party")) {
 			list = dao.searchByParty(input);
+			pres = dao.findLowestTerm(list);
 		}
 		if (select.equals("all")) {
 			list = dao.allPresidents();
 		}
 		if (select.equals("firstName")) {
 			list = dao.searchByFName(input);
+			pres = dao.findLowestTerm(list);
 		}
 		if (select.equals("lastName")) {
 			list = dao.searchByLName(input);
+			pres = dao.findLowestTerm(list);
 		}
 		request.setAttribute("firstPres", pres);
 		request.setAttribute("presList", list);
