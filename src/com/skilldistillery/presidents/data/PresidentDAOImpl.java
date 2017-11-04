@@ -54,7 +54,7 @@ public class PresidentDAOImpl implements PresidentDAO {
 	public President searchByTerm(String num) {
 		int term = Integer.parseInt(num);
 		for (President president : presidents) {
-			if (president.getTermNumber() == term) {
+			if (president.getTerm() == term) {
 				return president;
 			}
 		}
