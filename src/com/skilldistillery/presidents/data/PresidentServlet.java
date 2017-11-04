@@ -23,28 +23,24 @@ public class PresidentServlet extends HttpServlet {
     }
     
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String term = request.getParameter("term");
-		String party = request.getParameter("party");
-		String all = request.getParameter("all");
-		String firstName = request.getParameter("firstName");
-		String lastName = request.getParameter("lastName");
+		String select = request.getParameter("select");
 		String input = request.getParameter("president");
 		ArrayList<President> list = new ArrayList<>();
 		President pres;
-		if (term != null) {
+		if (select.equalsIgnoreCase("term")) {
 			pres = dao.searchByTerm(input);
 			list.add(pres);
 		}
-		if (party != null) {
+		if (select.equals("party")) {
 			list = dao.searchByParty(input);
 		}
-		if (all != null) {
+		if (select.equals("all")) {
 			list = dao.allPresidents();
 		}
-		if (firstName != null) {
+		if (select.equals("firstName")) {
 			list = dao.searchByFName(input);
 		}
-		if (lastName != null) {
+		if (select.equals("lastName")) {
 			list = dao.searchByLName(input);
 		}
 		

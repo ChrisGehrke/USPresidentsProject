@@ -1,7 +1,7 @@
 package com.skilldistillery.presidents.data;
 
 public class President {
-	private int termNumber, startYear, endYear;
+	private int term, startYear, endYear;
 	private String firstName, middleName, lastName, party;
 	
 	public President() {
@@ -10,7 +10,7 @@ public class President {
 	public President(int termNumber, int startYear, int endYear, String firstName, String middleName, String lastName,
 			String party) {
 		super();
-		this.termNumber = termNumber;
+		this.term = termNumber;
 		this.startYear = startYear;
 		this.endYear = endYear;
 		this.firstName = firstName;
@@ -18,8 +18,8 @@ public class President {
 		this.lastName = lastName;
 		this.party = party;
 	}
-	public int getTermNumber() {
-		return termNumber;
+	public int getTerm() {
+		return term;
 	}
 	public int getStartYear() {
 		return startYear;
@@ -43,7 +43,7 @@ public class President {
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
 		builder.append("President [termNumber = ");
-		builder.append(termNumber);
+		builder.append(term);
 		builder.append(", startYear = ");
 		builder.append(startYear);
 		builder.append(", endYear = ");

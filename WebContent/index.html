@@ -7,15 +7,15 @@
 <body>
 	<div class="pres_list">
 		<form action="filter.do" method="get">
-			Display President: <input type="text" name="president" value="">
+			Display President: <input type="text" name="president" value="president">
 			
 					Display By: 
-				<select>
+				<select name="select">
 				  <option value="term">Term</option>
 				  <option value="party">Party</option>
 				  <option value="all">All</option>
 				  <option value="firstName">First Name</option>
-				  <option value="alastName">Last Name</option>	 
+				  <option value="lastName">Last Name</option>	 
 				</select>
 				
 				<input type="submit" value="search" name="search">
