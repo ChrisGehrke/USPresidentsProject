@@ -153,7 +153,7 @@
  </c:if>
  <c:if test="${pres.term == 16}">
  <img class="d-block w-100" src="Images/AbrahamLincoln.jpg" alt="Second slide">
- <h1>Thomas Jefferson</h1>
+ <h1>Abraham Lincoln</h1>
  <h3>Term: Sixteenth President</h3>
  <h3>Party: Republican</h3>
  <h3>In office: 1861-1865</h3>
@@ -161,46 +161,117 @@
  </c:if>
  <c:if test="${pres.term == 17}">
  <img class="d-block w-100" src="Images/AndrewJohnson.jpg" alt="Second slide">
- 
+ <h1>Andrew Johnson</h1>
+ <h3>Term: Seventeenth President</h3>
+ <h3>Party: Democrat</h3>
+ <h3>In office: 1865-1869</h3>
+ <h3>Fun fact: He was the first president to be impeached.</h3>
  </c:if>
  <c:if test="${pres.term == 18}">
  <img class="d-block w-100" src="Images/UlyssesSGrant.jpg" alt="Second slide">
+ <h1>Ulysses S. Grant</h1>
+ <h3>Term: Eighteenth President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 1869-1877</h3>
+ <h3>Fun fact: The S in his name doesn't stand for anything. His real name was Hiram Ulysses Grant.</h3>
  </c:if>
  <c:if test="${pres.term == 19}">
  <img class="d-block w-100" src="Images/RutherfordHayes.jpg" alt="Second slide">
+ <h1>Rutherford B. Hayes</h1>
+ <h3>Term: Nineteenth President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 1877-1881</h3>
+ <h3>Fun fact: He was the first president to have a telephone and it was installed by Alexander Graham Bell himself.</h3>
  </c:if>
  <c:if test="${pres.term == 20}">
  <img class="d-block w-100" src="Images/JamesAbramGarfield.jpg" alt="Second slide">
+ <h1>James A. Garfield</h1>
+ <h3>Term: Twentieth President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 1881-1881</h3>
+ <h3>Fun fact: He was the second president to be assassinated. They couldn't find the bullet and he died of blood poisoning.</h3>
  </c:if>
  <c:if test="${pres.term == 21}">
  <img class="d-block w-100" src="Images/pres_artur.jpg" alt="Second slide">
+ <h1>Chester A. Arthur</h1>
+ <h3>Term: Twenty First President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 1881-1885</h3>
+ <h3>Fun fact: He was the third president in 1881 because Rutherford relinquished office and James died.</h3>
  </c:if>
  <c:if test="${pres.term == 22}">
  <img class="d-block w-100" src="Images/pres_grove.jpg" alt="Second slide">
+ <h1>Grover Cleveland</h1>
+ <h3>Term: Twenty Second President</h3>
+ <h3>Party: Democrat</h3>
+ <h3>In office: 1885-1889</h3>
+ <h3>Fun fact: His real name was Stephen. He changed it to Grover because he didn't like Stephen Cleveland .</h3>
  </c:if>
  <c:if test="${pres.term == 23}">
  <img class="d-block w-100" src="Images/pres_bharison.jpg" alt="Second slide">
+ <h1>Benjamin Harrison</h1>
+ <h3>Term: Twenty Third President</h3>
+ <h3>Party: Democratic-Republican</h3>
+ <h3>In office: 1889-1893</h3>
+ <h3>Fun fact: He was the first president to have electricity in the White House. 
+ He was afraid of being electrocuted by the light switches so he often left the lights on when he slept.</h3>
  </c:if>
  <c:if test="${pres.term == 24}">
  <img class="d-block w-100" src="Images/pres_grove.jpg" alt="Second slide">
+ <h1>Grover Cleveland</h1>
+ <h3>Term: Twenty Fourth President</h3>
+ <h3>Party: Democrat</h3>
+ <h3>In office: 1893-1897</h3>
+ <h3>Fun fact: He was ambidextrous. He could listen to someone speaking English and translate it into 
+ Greek with one hand while translating it into Latin with his other hand at the same time.</h3>
  </c:if>
  <c:if test="${pres.term == 25}">
  <img class="d-block w-100" src="Images/pres-Mckinley.jpg" alt="Second slide">
+ <h1>William McKinely</h1>
+ <h3>Term: Twenty Fifth President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 1897-1901</h3>
+ <h3>Fun fact: He was the first president in an automobile.</h3>
  </c:if>
  <c:if test="${pres.term == 26}">
  <img class="d-block w-100" src="Images/pres_roosevelt.jpg" alt="Second slide">
+ <h1>Theodore Roosevelt</h1>
+ <h3>Term: Twenty Sixth President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 1901-1909</h3>
+ <h3>Fun fact: He was the first president to earn a Nobel Peace Prize.</h3>
  </c:if>
  <c:if test="${pres.term == 27}">
  <img class="d-block w-100" src="Images/pres_taft.jpg" alt="Second slide">
+ <h1>William H. Taft</h1>
+ <h3>Term: Twenty Seventh President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 1909-1913</h3>
+ <h3>Fun fact: He was the last president to rock facial hair.</h3>
  </c:if>
  <c:if test="${pres.term == 28}">
  <img class="d-block w-100" src="Images/pres_wilson.jpg" alt="Second slide">
+ <h1>Woodrow Wilson</h1>
+ <h3>Term: Twenty Eighth President</h3>
+ <h3>Party: Democrat</h3>
+ <h3>In office: 1913-1921</h3>
+ <h3>Fun fact: He is the only president buried in Washington D.C.</h3>
  </c:if>
  <c:if test="${pres.term == 29}">
  <img class="d-block w-100" src="Images/pres_harding.jpg" alt="Second slide">
+ <h1>Warren G. Harding</h1>
+ <h3>Term: Twenty Ninth President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 1921-1923</h3>
+ <h3>Fun fact: He officially ended World War I.</h3>
  </c:if>
  <c:if test="${pres.term == 30}">
  <img class="d-block w-100" src="Images/pres_coolidge.jpg" alt="Second slide">
+ <h1>Calvin Coolidge</h1>
+ <h3>Term: Thirtieth President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 1923-1929</h3>
+ <h3>Fun fact: He died of a heart attack at age 60.</h3>
  </c:if>
  <c:if test="${pres.term == 31}">
  <img class="d-block w-100" src="Images/pre_hoover.jpg" alt="Second slide">
