@@ -97,30 +97,71 @@
  </c:if>
  <c:if test="${pres.term == 9}">
  <img class="d-block w-100" src="Images/WilliamHenryHarrison.jpg" alt="Ninth slide">
+ <h1>William Henry Harrison</h1>
+ <h3>Term: Ninth President</h3>
+ <h3>Party: Whig</h3>
+ <h3>In office: 1841-1841</h3>
+ <h3>Fun fact: He died of pneumonia only 33 days in office.</h3>
  </c:if>
  <c:if test="${pres.term == 10}">
  <img class="d-block w-100" src="Images/JohnTyler.jpg" alt="Second slide">
+ <h1>John Tyler</h1>
+ <h3>Term: Tenth President</h3>
+ <h3>Party: Whig</h3>
+ <h3>In office: 1841-1845</h3>
+ <h3>Fun fact: Set the standard of succession after Harrison was the first president to die in office. It wasn't formalized until 1967.</h3>
  </c:if>
  <c:if test="${pres.term == 11}">
  <img class="d-block w-100" src="Images/JamesKPolk.jpg" alt="Second slide">
+ <h1>James Knox Polk</h1>
+ <h3>Term: Eleventh President</h3>
+ <h3>Party: Democrat</h3>
+ <h3>In office: 1845-1849</h3>
+ <h3>Fun fact: At age 17 he had a kidney stone removed with no anesthesia.</h3>
  </c:if>
  <c:if test="${pres.term == 12}">
  <img class="d-block w-100" src="Images/ZacharyTaylor.png" alt="Second slide">
+ <h1>Zachary Taylor</h1>
+ <h3>Term: Twelfth President</h3>
+ <h3>Party: Whig</h3>
+ <h3>In office: 1849-1850</h3>
+ <h3>Fun fact: Died of cholera his first year in office.</h3>
  </c:if>
  <c:if test="${pres.term == 13}">
  <img class="d-block w-100" src="Images/MillardFillmore.jpg" alt="Second slide">
+ <h1>Millard Fillmore</h1>
+ <h3>Term: Thirteenth President</h3>
+ <h3>Party: Whig</h3>
+ <h3>In office: 1850-1853</h3>
+ <h3>Fun fact: He was a bibliophile and founded the first permanent White House library.</h3>
  </c:if>
  <c:if test="${pres.term == 14}">
  <img class="d-block w-100" src="Images/FranklinPierce.jpg" alt="Second slide">
+ <h1>Franklin Pierce</h1>
+ <h3>Term: Fourteenth President</h3>
+ <h3>Party: Democrat</h3>
+ <h3>In office: 1853-1857</h3>
+ <h3>Fun fact: He was an alcoholic and said to be the "hero of many a well-fought bottle".</h3>
  </c:if>
  <c:if test="${pres.term == 15}">
  <img class="d-block w-100" src="Images/JamesBuchanan.jpg" alt="Second slide">
+ <h1>James Buchanan</h1>
+ <h3>Term: Fifteenth President</h3>
+ <h3>Party: Democrat</h3>
+ <h3>In office: 1857-1861</h3>
+ <h3>Fun fact: The only president that was never married.</h3>
  </c:if>
  <c:if test="${pres.term == 16}">
  <img class="d-block w-100" src="Images/AbrahamLincoln.jpg" alt="Second slide">
+ <h1>Thomas Jefferson</h1>
+ <h3>Term: Sixteenth President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 1861-1865</h3>
+ <h3>Fun fact: He was an accomplished wrestler and is enshrined in the wrestling hall of fame.</h3>
  </c:if>
  <c:if test="${pres.term == 17}">
  <img class="d-block w-100" src="Images/AndrewJohnson.jpg" alt="Second slide">
+ 
  </c:if>
  <c:if test="${pres.term == 18}">
  <img class="d-block w-100" src="Images/UlyssesSGrant.jpg" alt="Second slide">
