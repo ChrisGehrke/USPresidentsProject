@@ -275,48 +275,123 @@
  </c:if>
  <c:if test="${pres.term == 31}">
  <img class="d-block w-100" src="Images/pre_hoover.jpg" alt="Second slide">
+ <h1>Herbert C. Hoover</h1>
+ <h3>Term: Thirty First President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 1929-1933</h3>
+ <h3>Fun fact: He was the first president born west of the Mississippi River.</h3>
  </c:if>
  <c:if test="${pres.term == 32}">
  <img class="d-block w-100" src="Images/pres_frank_roosvelt.jpg" alt="Second slide">
+ <h1>Franklin D. Roosevelt</h1>
+ <h3>Term: Thirty Second President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 1933-1945</h3>
+ <h3>Fun fact: He was the longest serving president. After him they limited everyone to only two terms</h3>
  </c:if>
  <c:if test="${pres.term == 33}">
  <img class="d-block w-100" src="Images/pres_harry.jpg" alt="Second slide">
+ <h1>Harry S. Truman</h1>
+ <h3>Term: Thirty Third President</h3>
+ <h3>Party: Democrat</h3>
+ <h3>In office: 1945-1953</h3>
+ <h3>Fun fact: The middle name of "S." was given to him because both his parents had relatives that names started with S and they couldn't decide who it would be so they just left the letter S.</h3>
  </c:if>
  <c:if test="${pres.term == 34}">
  <img class="d-block w-100" src="Images/DwightDEisenhower.jpg" alt="Second slide">
+ <h1>Dwight D. Eisenhower</h1>
+ <h3>Term: Thirty Fourth President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 1953-1961</h3>
+ <h3>Fun fact: He never actually saw active combat despite being one of America's top generals.</h3>
  </c:if>
  <c:if test="${pres.term == 35}">
  <img class="d-block w-100" src="Images/pres_kennedy.jpg" alt="Second slide">
+ <h1>John F. Kennedy</h1>
+ <h3>Term: Thirty Fifth President</h3>
+ <h3>Party: Democrat</h3>
+ <h3>In office: 1961-1963</h3>
+ <h3>Fun fact: He was in poor health a lot and had his last rights read to him on three separate occasions.</h3>
  </c:if>
  <c:if test="${pres.term == 36}">
  <img class="d-block w-100" src="Images/pres_lyndon.jpg" alt="Second slide">
+ <h1>Lyndon B. Johnson</h1>
+ <h3>Term: Thirty Sixth President</h3>
+ <h3>Party: Democrat</h3>
+ <h3>In office: 1963-1969</h3>
+ <h3>Fun fact: He suffered from depression after the many who died in the Vietnam War and all the public demonstrators.</h3>
  </c:if>
  <c:if test="${pres.term == 37}">
  <img class="d-block w-100" src="Images/pres_nixon.jpg" alt="Second slide">
+ <h1>Richard M. Nixon</h1>
+ <h3>Term: Thirty Seventh President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 1969-1974</h3>
+ <h3>Fun fact: He was an avid bowler. He even had a lane built in the basement of the White House.</h3>
  </c:if>
  <c:if test="${pres.term == 38}">
  <img class="d-block w-100" src="Images/pres_ford.jpg" alt="Second slide">
+ <h1>Gerald R. Ford</h1>
+ <h3>Term: Thirty Eighth President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 1974-1977</h3>
+ <h3>Fun fact: His real name was Leslie Lynch King jr. His step father was Gerald R. Ford and so he later changed his name to be the jr of his step father.</h3>
  </c:if>
  <c:if test="${pres.term == 39}">
  <img class="d-block w-100" src="Images/pres_jimmy.jpg" alt="Second slide">
+ <h1>James E. Carter</h1>
+ <h3>Term: Thirty Ninth President</h3>
+ <h3>Party: Democrat</h3>
+ <h3>In office: 1977-1981</h3>
+ <h3>Fun fact: He was the first person in his family to graduate high school.</h3>
  </c:if>
  <c:if test="${pres.term == 40}">
  <img class="d-block w-100" src="Images/pres_ronald.jpg" alt="Second slide">
+ <h1>Ronald W. Reagan</h1>
+ <h3>Term: Fortieth President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 1981-1989</h3>
+ <h3>Fun fact: He was a famous celebrity on tv.</h3>
  </c:if>
  <c:if test="${pres.term == 41}">
  <img class="d-block w-100" src="Images/George_H_W_Bush.jpg" alt="Second slide">
+ <h1>George H.W. Bush</h1>
+ <h3>Term: Forty First President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 1989-1993</h3>
+ <h3>Fun fact: In 1943 he was the youngest pilot in the Navy at the time.</h3>
  </c:if>
  <c:if test="${pres.term == 42}">
  <img class="d-block w-100" src="Images/pres_clinton.jpg" alt="Second slide">
+ <h1>William J. Clinton</h1>
+ <h3>Term: Forty Second President</h3>
+ <h3>Party: Democrat</h3>
+ <h3>In office: 1993-2001</h3>
+ <h3>Fun fact: He is an excellent saxophone player.</h3>
  </c:if>
  <c:if test="${pres.term == 43}">
  <img class="d-block w-100" src="Images/pres_bush.jpg" alt="Second slide">
+ <h1>George W. Bush</h1>
+ <h3>Term: Forty Third President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 2001-2009</h3>
+ <h3>Fun fact: He has had the highest and lowest approval ratings of all the presidents.</h3>
  </c:if>
  <c:if test="${pres.term == 44}">
  <img class="d-block w-100" src="Images/pres_obama.jpg" alt="Second slide">
+ <h1>Barack H. Obama</h1>
+ <h3>Term: Forty Fourth President</h3>
+ <h3>Party: Democrat</h3>
+ <h3>In office: 2009-2016</h3>
+ <h3>Fun fact: He loves playing Scrabble.</h3>
  </c:if>
  <c:if test="${pres.term == 45}">
  <img class="d-block w-100" src="Images/DonaldTrump.jpg" alt="Second slide">
+ <h1>Donald J. Trump</h1>
+ <h3>Term: Forty Fifth President</h3>
+ <h3>Party: Republican</h3>
+ <h3>In office: 2016-present</h3>
+ <h3>Fun fact: His hair is real. It stays so nice because he hardly ever goes outside.</h3>
  </c:if>
     </div>
 </c:forEach>
