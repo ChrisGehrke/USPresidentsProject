@@ -1,51 +1,107 @@
 <!DOCTYPE html>
-<html class="full-height">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Presidents List</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="PresidentCSS/PresidentCSS.css">
-	<link rel="stylesheet" href="PresidentCSS/slides.css">
+<meta charset="UTF-8">
+
+<link rel="stylesheet" type="text/css" href="PresidentCSS/president.css">
 
 </head>
-
-<body class="full-height">
-	<div class="container-fluid full-height">
-          <div class="row third-height">
-
-          </div>
-          <div class="row third-height justify-content-center">
-               <div class="align-self-center">
-				<div class="pres_list">
-					<form action="filter.do" method="get">
-						Display President: <input type="text" name="president" value="">
-
-								Display By:
-
-							<select id="list" name="select">
-							  <option value="term">Term</option>
-							  <option value="party">Party</option>
-							  <option value="all">All</option>
-							  <option value="firstName">First Name</option>
-							  <option value="lastName">Last Name</option>
-							</select>
-
-							<input type="submit" value="search" name="search">
-
-					</form>
-				</div>
-               </div>
-          </div>
-          <div class="row third-height">
-
-          </div>
-     </div>
+<body>
 
 
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<div class="nav">
+	<ul>
+		<li><a href="#container"> welcome</a></li>
+		<li><a href="#"> History</a></li>
+		<li><a href="#"> Find Presidents</a></li>
+		<li><a href="#"> Pictures</a></li>
+	</ul>
+</div>
+
+
+
+<div class="welcome">
+
+	<h1>LIST OF PRISDENTS OF THE UNITED STATES OF AMERICA</h1>
+
+</div>
+
+
+
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+
+
+	<div class="container">
+
+				<h3> Welcome To The President Finder Site</h3>
+				<p>This is the official website that displays the list of the U.S presidents
+				by term number, party, first name, last name, and or the entire list of the
+				the presidents. You are free to choose any options.</p>
+
+			</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="history">
+	<h1>U.S Presidents History</h1>
+	<p>
+		As the dust settled from the Revolutionary War, America’s founding fathers hashed out a three-branch political system that was entirely novel. An elected civilian—the president of the United States of America—would lead the federal government, enforcing the laws of the land and acting as commander-in-chief of the armed forces, heading a governmental structure that has remained in place for more than 200 years.
+
+</div>
+
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+			<div class="pres_list">
+				<form class="list" action="filter.do" method="get">
+					Display President: <input class="menu" type="text" name="president" value="">
+<br>
+						 Display By:
+					<select class="menu " name="select">
+							<option value="term">Term</option>
+							<option value="party">Party</option>
+							<option value="all" >All</option>
+							<option value="firstName">First Name</option>
+							<option value="lastName">Last Name</option>
+						</select>
+						<br >
+						<input class="menu" type="submit" value="search" name="search" >
+
+				</form>
+
+			</div>
+
+
+
+
+
+
+
 </body>
 </html>
