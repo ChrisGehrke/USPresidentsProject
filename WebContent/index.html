@@ -12,10 +12,10 @@
 
 <div class="nav">
 	<ul>
-		<li><a href="#container"> welcome</a></li>
-		<li><a href="#"> History</a></li>
-		<li><a href="#"> Find Presidents</a></li>
-		<li><a href="#"> Pictures</a></li>
+		<li><a href="#welcome"> Welcome</a></li>
+		<li><a href="#history"> History</a></li>
+		<li><a href="#search"> Find Presidents</a></li>
+		<!-- <li><a href="#"> Pictures</a></li> -->
 	</ul>
 </div>
 
@@ -48,7 +48,7 @@
 <br>
 
 
-	<div class="container">
+	<div class="container" id="welcome">
 
 				<h3> Welcome To The President Finder Site</h3>
 				<p>This is the official website that displays the list of the U.S presidents
@@ -63,7 +63,7 @@
 <br>
 <br>
 
-<div class="history">
+<div class="history" id="history">
 	<h1>U.S Presidents History</h1>
 	<p>
 		As the dust settled from the Revolutionary War, America’s founding fathers hashed out a three-branch political system that was entirely novel. An elected civilian—the president of the United States of America—would lead the federal government, enforcing the laws of the land and acting as commander-in-chief of the armed forces, heading a governmental structure that has remained in place for more than 200 years.
@@ -78,10 +78,9 @@
 <br>
 <br>
 
-			<div class="pres_list">
+			<div class="welcome" id="search">
 				<form class="list" action="filter.do" method="get">
 					Display President: <input class="menu" type="text" name="president" value="">
-<br>
 						 Display By:
 					<select class="menu " name="select">
 							<option value="term">Term</option>
@@ -90,7 +89,6 @@
 							<option value="firstName">First Name</option>
 							<option value="lastName">Last Name</option>
 						</select>
-						<br >
 						<input class="menu" type="submit" value="search" name="search" >
 
 				</form>
