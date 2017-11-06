@@ -91,7 +91,7 @@ public class PresidentDAOImpl implements PresidentDAO {
 				list.add(president);
 			}
 		}
-		return null;
+		return list;
 	}
 
 	@Override
