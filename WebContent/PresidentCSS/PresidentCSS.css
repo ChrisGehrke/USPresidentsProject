@@ -5,12 +5,13 @@
     font-size: 16px;
     border: none;
     cursor: pointer;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .pres_list {
     position: relative;
     display: inline-block;
+    margin: 0 auto;
 }
 
 .demo-content{
@@ -23,4 +24,3 @@
     .demo-content.bg-alt{
         background: #abb1b8;
     }
- 
