@@ -202,7 +202,7 @@
                                     <img class="d-block w-100" src="Images/pres_bharison.jpg" alt="Second slide">
                                     <h1>Benjamin Harrison</h1>
                                     <h3>Term: Twenty Third President</h3>
-                                    <h3>Party: Democratic-Republican</h3>
+                                    <h3>Party: Republican</h3>
                                     <h3>In office: 1889-1893</h3>
                                     <h3>Fun fact: He was the first president to have electricity in the White House.
                                     He was afraid of being electrocuted by the light switches so he often left the lights on when he slept.</h3>
