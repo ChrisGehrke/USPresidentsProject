@@ -220,7 +220,7 @@
                                     <img class="d-block w-100" src="Images/pres-Mckinley.jpg" alt="Second slide">
                                     <h1>William McKinely</h1>
                                     <h3>Term: Twenty Fifth President</h3>
-                                    <h3>Party: Republican</h3>
+                                    <h3> Party: Republican</h3>
                                     <h3>In office: 1897-1901</h3>
                                     <h3>Fun fact: He was the first president in an automobile.</h3>
                                </c:if>
